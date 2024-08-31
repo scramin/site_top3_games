@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Top 3</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>MEU TOP 3</h2>
+            <ul class="menu">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#top3">TOP 3</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="github">
+                <a href="https://github.com/scramin" target="_blank">GitHub</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="about-image-container">
+                <img src="./images/foto1.png" alt="caveira medieval em pixelart" />
+            </div>
+            <header class="about-content">
+                <h1>SOBRE MEU TOP 3</h1>
+                <hr/>
+                <p class="about-text">"Meu top 3" é uma página interativa onde os visitantes podem compartilhar seus três jogos favoritos e explicar o porquê de cada escolha. Toda semana, a página é atualizada com novas listas enviadas pelos internautas, proporcionando um espaço dinâmico para a troca de opiniões e descobertas de novos jogos.</p>
+                <p class="about-text"> Participe e veja como seu Top 3 se compara com o dos outros gamers!</p>
+            </header>
+        </section>
+        <section class="top3-content" id="top3">
+            <header>
+                <h2>TOP 3</h2>
+                <p class="top3-subtitle">Este é o TOP 3 de Lucas Almeida!</p>
+                <hr>
+            </header>
+            <div>
+                <div>
+                    <header>
+                            <div class="top3-game">
+                                <h3>Dark Souls</h3>
+                                <p>-PlayStation 3- -Xbox 360- -PC- -PlayStation 4- -Xbox One- -Nintendo Switch-</p>
+                            </div>
+                            <div class="top3-list">
+                                <img src="./images/trophygold.png" alt="troféu de ouro" />
+                                <p>Lucas Almeida escolheu Dark Souls como seu jogo número 1 por causa de sua jogabilidade desafiadora e atmosfera única. Ele destaca a sensação de conquista ao superar inimigos poderosos e vencer chefões difíceis, além da narrativa intrigante que é contada de forma sutil através do ambiente e dos itens do jogo. Para Lucas, cada vitória em Dark Souls é uma experiência recompensadora, fazendo dele seu jogo favorito.</p>
+                                <hr>
+                            </div>
+                            <div class="top3-game">
+                                <h3>The Witcher 3 : Wild Hunt</h3>
+                                <p>-PlayStation 5- -Xbox One- -PC- -PlayStation 4- -Xbox Series S/X- -Nintendo Switch-</p>
+                            </div>
+                            <div class="top3-list">
+                                <img src="./images/trophysilver.png" alt="troféu de prata" />
+                                <p>The Witcher 3: Wild Hunt ocupa o segundo lugar em seu Top 3 por causa de sua narrativa rica e envolvente, com personagens bem desenvolvidos e escolhas que impactam diretamente o desenrolar da história. Ele destaca o vasto mundo aberto do jogo, cheio de detalhes, missões secundárias interessantes e um sistema de combate estratégico. Lucas aprecia a complexidade moral das decisões que o jogador deve tomar e a imersão total proporcionada pelas paisagens e músicas do jogo. Para ele, cada momento em The Witcher 3 é uma jornada épica que deixa uma marca duradoura.</p>
+                                <hr>
+                            </div>
+                            <div class="top3-game">
+                                <h3>Super Mario Odyssey</h3>
+                                <p>-Nintendo Switch-</p>
+                            </div>
+                            <div class="top3-list">
+                                <img src="./images/trophybronze.png" alt="troféu de bronze" />
+                                <p>No terceiro lugar, Lucas escolheu Super Mario Odyssey por sua jogabilidade inovadora e diversão garantida. Ele adora a criatividade dos mundos coloridos e variados, cada um com seus próprios desafios e segredos para descobrir. Lucas menciona a mecânica única de usar o chapéu, Cappy, para controlar inimigos e objetos como um dos aspectos mais divertidos e criativos do jogo. Ele também valoriza a acessibilidade e o apelo universal de Super Mario Odyssey, que traz um senso de nostalgia enquanto introduz novas e emocionantes maneiras de jogar. Para Lucas, este jogo é uma celebração pura da alegria e aventura.</p>
+                                <hr>
+                            </div>
+                    </header>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form" id="contact">
+            <hr/>
+            <h2>Envie seu top 3</h2>
+            <h2>para nós!</h2>
+            <form action="https://formspree.io/f/mdknbrwq" method="POST">
+                <div class="form-group" data-instruction="Digite seu nome completo:">
+                    <input type="text" name="nome" placeholder="Seu nome completo" required />
+                </div>
+                <div class="form-group" data-instruction="Informe seu melhor e-mail:">
+                    <input type="email" name="email" placeholder="Seu e-mail" required />
+                </div>
+                <div class="form-group" data-instruction="Conte-nos seu top 3 favorito:">
+                    <textarea name="top3" placeholder="Seu top 3!" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                <p>Não esqueça também de descrever acima o porque de cada jogo!</p>
+            </form>                       
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; MEU TOP 3 - Todos os direitos reservados - 2024
+        </p>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'RetroComputer';
+    src: url('fonts/retro_computer_personal_use.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/backgroundgif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #c9c9c9;
+    text-shadow: #000000;
+}
+
+html {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 24px 160px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    color: #c9c9c9;
+    font-size: 24px;
+    text-shadow: #000000;
+    text-transform: uppercase;
+}
+
+.menu a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #f2a50b;
+}
+
+.github {
+    font-family: 'RetroComputer', sans-serif;
+    font-size: 17px;
+    color: #c9c9c9;
+    text-shadow: 0 1px #000000;
+}
+
+.github a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.github a:hover {
+    color: #f2a50b
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'RetroComputer', sans-serif;
+    font-size: 40px;
+    color: #c9c9c9;
+    text-shadow: #000000 0 4px;
+}
+
+h2 {
+    font-family: 'RetroComputer', sans-serif;
+    font-size: 30px;
+    color: #c9c9c9;
+    text-shadow: #000000 0 4px;
+}
+
+header {
+    padding: 16px 0;
+    color: #c9c9c9;
+    text-shadow: #000000 0 4px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #ddd7ca18;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    height: 70VH;
+    gap: 18px;
+    padding: 20px;
+}
+
+.about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image-container img {
+    width: 105%;
+    height: 105%;
+    max-height: 200%;
+    border-radius: 15px;
+}
+
+.about-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+hr {
+    border-color: #f2a50b;
+    text-shadow: #000000;
+}
+
+.about-text {
+    color: #f2a50b;
+    font-size: 24px;    
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.top3-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin-top: 36px;
+    margin-bottom: 28px;
+    background: #ddd7ca39;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.top3-content h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding-bottom: 18px;
+}
+
+.top3-subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2a50b;
+    font-size: 24px;    
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.top3-game h3 {
+    font-size: 20px;
+    color: #f2a50b;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.top3-game h3,
+.top3-game p {
+    display: flex;  
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.top3-game p {
+    color: aliceblue;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.top3-list {
+    display: flex;
+    align-items: center;
+    background-color: #592407d9;
+    border-radius: 15px;
+    padding-bottom: 12px;
+}
+
+.top3-list img {
+    padding: 16px;
+    width: 12%;
+}
+
+.top3-list p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+    color: #f2a50b;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% auto;
+    color: #f2a50b;
+    background-color: #592407;
+    border-radius: 15px;
+    width: 400px;
+    height: 650px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form h2 {
+    padding-bottom: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: #f2a50b;
+    font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(201, 201, 201, 0.1);
+    color: #c9c9c9;
+    font-family: 'RetroComputer', Arial, sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    
+    background-color: rgba(201, 201, 201, 0.2);
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+    width: 350px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2a50b;
+    color: #592407;
+    border: none;
+    border-radius: 5px;
+    font-family: 'RetroComputer', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffc107;
+}
+
+.form-group::before {
+    content: attr(data-instruction);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #f2a50b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3333333a;
+    color: #f2a50b;
+}
